@@ -41,3 +41,10 @@
 81: $ dart run hello.dart 
 --> Hello, Dart!
 ```
+
+### 4. Note
+- **Từ khóa var: Chỉ được gán biến cho giá trị cùng kiểu**
+- **Từ khóa dynamic: Gán thoải mái**
+
+- 1 bài chi tiết về từng List, Map, Set. 1 bài kỹ hơn về Final + Const trong class 
+- https://linhta.dev/blog/final-va-const-trong-dart/#update
