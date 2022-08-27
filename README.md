@@ -47,11 +47,11 @@
 - **Từ khóa dynamic: Gán thoải mái**
 - [Label to break loop more accurately](https://www.tutorialspoint.com/dart_programming/dart_programming_loops.htm)
 
-- 1 bài chi tiết về từng List, Map, Set. 1 bài kỹ hơn về Final + Const trong class 
-
 - [Final và const trong dart](https://linhta.dev/blog/final-va-const-trong-dart/#update)
 
 - **mixin** khác class thông thường ở chỗ:
     - mixin không có constructor nên không thể tạo đối tượng.
     - mixin chỉ có thể sử dụng để implements hoặc with chứ không thể extends
     - mixin có thể giới hạn những class nào được phép sử dụng code của mình bằng từ khóa mixin on
+
+- **import 'dart:collection';** to use **HashMap, HashSet, LinkedList ...**
