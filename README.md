@@ -57,16 +57,16 @@
 
 ## A1. Objective-C
 ### Set up instruction & Syntax
-- **[Introduction & Syntax URL of Obj-C]**(https://www.tutorialspoint.com/objective_c/index.htm)
+- [**Introduction & Syntax URL of Obj-C**](https://www.tutorialspoint.com/objective_c/index.htm)
 
 ## A2. Swift
 ### Set up instruction & Syntax
-- **[Introduction & Syntax URL of Swift]**(https://www.tutorialspoint.com/swift/index.htm)
+- [**Introduction & Syntax URL of Swift**](https://www.tutorialspoint.com/swift/index.htm)
 
 ## A3. Kotlin
 ### Set up instruction & Syntax
-- **[Introduction & Syntax URL of Swift]**(https://www.tutorialspoint.com/kotlin/index.htm)
-- **[Install instruction]**(https://kotlinlang.org/docs/command-line.html#snap-package)
+- [**Introduction & Syntax URL of Kotlin**](https://www.tutorialspoint.com/kotlin/index.htm)
+- [**Install & execute instruction**](https://kotlinlang.org/docs/command-line.html#snap-package)
 1. Using snap with Ubuntu version >= 16.0
 ```
 sudo snap install --classic kotlin
@@ -77,7 +77,7 @@ sudo snap install --classic kotlin
 ```
 3. Using java complier to execute the results from **.jar** file
 ```
-../kotlin$ java -jar hello.jar
+../kotlin$ java -jar <filename>.jar
 ```
 
 ## B. Basic TypeScript from beginning
