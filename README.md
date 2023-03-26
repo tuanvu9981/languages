@@ -1,5 +1,4 @@
-## Basic Dart 
-
+## A. Basic Dart 
 ### 1. Cài đặt Dart trên Ubuntu 
 - Tham khảo: [Cài đặt Dart](https://dart.dev/get-dart)
 - Follow chính xác các bước sau đây, **không bỏ 1 lệnh nào**: 
@@ -55,3 +54,21 @@
     - mixin có thể giới hạn những class nào được phép sử dụng code của mình bằng từ khóa mixin on
 
 - **import 'dart:collection';** to use **HashMap, HashSet, LinkedList ...**
+
+## B. Basic TypeScript from beginning
+
+#### Install TypeScript
+```npm install -g typescript```
+
+#### Check version of TypeScript
+```tsc -v```
+
+#### Compile & Run
+```tsc <ts_file_name>.ts && node <ts_file_name>.js```
+
+#### nodemon
+* Khi code thay đổi, hệ thống tự cập nhật lại code và build lại ngay cho dev, không cần tắt đi và ```node app.js``` lại lần nữa
+
+#### Shell to run
+* yarn: yarn dev
+* npm: npm start
