@@ -1,5 +1,5 @@
 fun main() {
-    // 1. String functions
+    // ************  1. String functions ************
     val cityName = "Ho Chi Minh City"
     println(cityName[0])    // H
 
@@ -17,7 +17,7 @@ fun main() {
     println("city1 == city3 : ${cityName.compareTo(cityName3)}")
     // 14 != 0 (Not equal)
 
-    // 2. List
+    //  ************ 2. List ************
     // a. Read-Only List
     val readOnlyList = listOf<Any>("String", 3.14, 10)
     println(readOnlyList[1])
