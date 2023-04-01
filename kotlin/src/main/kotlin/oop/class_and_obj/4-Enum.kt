@@ -1,6 +1,5 @@
 package oop.class_and_obj
 
-import java.awt.Shape
 import kotlin.math.sqrt
 
 // 1. Basic Enum
