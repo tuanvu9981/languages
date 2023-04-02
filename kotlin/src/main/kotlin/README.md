@@ -16,6 +16,6 @@
 - Syntax **ChildClass : ParentsClass**
 - Các kiểu kế thừa phụ thuộc chặt chẽ vào constructors.
 - Note: **Interface's methods are open by default**
-[Official Kotlin document](https://kotlinlang.org/docs/inheritance.html#overriding-rules)
-[Tutorial Inheritance document](https://www.tutorialspoint.com/kotlin/kotlin_constructors.htm)
-[Viblo blog about Kotlin Inheritance and Overriding](https://viblo.asia/p/kotlin-class-and-inheritance-RnB5pXJb5PG)
+- [Official Kotlin document](https://kotlinlang.org/docs/inheritance.html#overriding-rules)
+- [Tutorial Inheritance document](https://www.tutorialspoint.com/kotlin/kotlin_constructors.htm)
+- [Viblo blog about Kotlin Inheritance and Overriding](https://viblo.asia/p/kotlin-class-and-inheritance-RnB5pXJb5PG)
