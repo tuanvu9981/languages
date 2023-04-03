@@ -39,4 +39,16 @@ fun main() {
     val macbookAir13 = Laptop("123", "USA", 4799, "Apple")
     println(macbookAir13.isMadeInUSA())
     macbookAir13.printInfo()
+
+    // anonymous class with abstract class
+    val caseComputer:Computer = object: Computer("456", "China", 6701) {
+        override var maker: String = "ASUS"
+        override fun printInfo() {
+            println("Mac Address: ${this.macAddress}")
+            println("Maker: ${this.maker}, made in ${this.madeIn}")
+            println("Price: ${this.price} $")
+        }
+    }
+
+    caseComputer.printInfo()
 }
