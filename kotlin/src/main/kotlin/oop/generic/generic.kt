@@ -11,6 +11,11 @@ fun main(args: Array<String>){
     println(obj1) // oop.generic.GenericExample@87aac27
     println(obj2) // oop.generic.GenericExample@3e3abc88
 
+    var phone1 = Device();
+    var phone2 = Phone();
+    var obj3 = GenericDevice<Device>(phone1);
+    var obj4 = GenericDevice<Phone>(phone2);
+
 }
 
 class GenericExample<T>(input: T){
@@ -35,7 +40,7 @@ class Phone():Device() {
     }
 }
 
-class GenericDevice<in T>(input: T){
+class GenericDevice<out T>(input: T){
     init {
         println("Calling $input")
     }
