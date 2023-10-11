@@ -19,3 +19,9 @@
 - [Official Kotlin document](https://kotlinlang.org/docs/inheritance.html#overriding-rules)
 - [Tutorial Inheritance document](https://www.tutorialspoint.com/kotlin/kotlin_constructors.htm)
 - [Viblo blog about Kotlin Inheritance and Overriding](https://viblo.asia/p/kotlin-class-and-inheritance-RnB5pXJb5PG)
+
+### 4. Visibility control 
+- **private**: Chỉ truy cập trong nội bộ class 
+- **public**: Truy cập bất cứ đâu 
+- **protected**: Chỉ cho bản thân class và lớp con kế thừa truy cập
+- **internal**: Từ khóa mới của Kotlin, chỉ cho các thành phần cùng package truy cập vào nó. 
